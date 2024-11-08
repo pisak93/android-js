@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "name": "MyApp",
+    "app-name": "MyApp",
+    "package-name": "webview",
+    "project-type": "webview",
+    "icon": "./assets/icon/icon.png",
+    "dist-path": "./dist",
+    "permission": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.CAMERA"
+    ],
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start:dev": "node .",
+        "build": "androidjs build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "androidjs": "^2.0.2",
+        "body-parser": "^1.20.3",
+        "express": "^4.21.1",
+        "mongodb": "^6.10.0",
+        "mongoose": "^8.8.0",
+        "react-native-geolocation-service": "^5.3.1"
+    },
+    "project-name": "MyApp",
+    "theme": {
+        "fullScreen": true
+    }
+}
